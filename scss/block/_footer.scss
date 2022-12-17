@@ -1,0 +1,40 @@
+.bottom{  
+            background-color: #2C343E;
+            width: 1280px;
+            height: 120px;
+        .bottom-navigation{
+            @include navbar;
+        vertical-align: middle;padding: 20px 20px;
+          margin: 0 40px;
+            &_navbar{
+                @include navbar;
+                &_nav{
+                  ul{
+                    @include flex;
+                    gap: 50px;
+                    li{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: $licolor;
+                        }
+                    }
+                  }
+                }
+            }
+            &_sourse{
+                nav{
+                    ul{
+                        @include flex;
+                        gap: 15px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

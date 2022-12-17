@@ -1,0 +1,10 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "livePreview.defaultPreviewPath": "c:\\Users\\RT\\Desktop\\file\\The frontend is in the 6th month of development\\2-month\\Loyihalar\\Coffee roasters\\D_About_us.html"
+}

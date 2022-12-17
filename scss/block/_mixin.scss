@@ -1,0 +1,29 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin font_f9 {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+}
+@mixin mp{
+    margin: 0;
+    padding: 0;
+}
+@mixin navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+@mixin barlow{
+    font-family: 'Barlow';
+    font-style: normal;
+}
+@mixin flex_b{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}

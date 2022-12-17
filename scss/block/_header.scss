@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @include mp;
+    .header{margin-bottom: 100px;
+        .container{
+            max-width: 1200px;
+            .us{
+                .us-navigation{
+                    @include navbar;
+                    width: 100%;
+                    &_navbar{
+                        ul{
+                            @include flex;
+                            gap: 35px;
+                            li{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color:$licolor;                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }        
+}

@@ -1,0 +1,41 @@
+.map{
+    margin: 0 50px;
+    @include flex_b;
+    &_our{       
+        &_h2{
+            @include font_f9;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-bottom: 100px;
+        }
+    }
+    &_boxs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 200px;
+         &_dry{
+            @include flex_b;
+            &_h2{
+                @include font_f9;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+            }
+            &_s-box{
+                @include flex-b;
+                span{
+                    @include barlow;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                }
+            }
+         }
+    }
+}

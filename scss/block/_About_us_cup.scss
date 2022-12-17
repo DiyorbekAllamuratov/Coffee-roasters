@@ -1,0 +1,34 @@
+.cup{
+    background-image: url("/img/About/Bitmap.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 1280px;
+    height:450px;
+    margin-bottom:168px;
+    .cup-b-d{  
+    position: relative;
+        &_text{
+            position: absolute; 
+            top: 137px;
+            bottom: 370px;
+            left: 85px;
+            right: 750px;
+            h2{
+                @include font-f9;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: #FEFCF7;
+                margin-top: 24px
+            }
+            p{
+                @include barlow;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FEFCF7;
+            }
+        }
+    }
+}

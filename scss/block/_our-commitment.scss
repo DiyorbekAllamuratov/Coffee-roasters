@@ -1,0 +1,20 @@
+.prepare{
+    @include flex;
+    justify-content: space-around;
+    &_box1{
+        background-image:url("/img/About/Bitmap\ \(2\).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-clip: border-box;
+        width: 445px;
+        height: 520px;
+        border-radius: 20px;
+    }
+    &_box2{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

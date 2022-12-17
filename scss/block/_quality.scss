@@ -1,0 +1,48 @@
+.quality{
+    margin-top:200px;
+    width: 1280px;
+    height: 562px;
+    position: relative;
+    &_box{
+        width: 1280px;
+        height: 474px;
+        @include navbar;
+        background-color:#2C343E;
+        border-radius: 10px;
+        &_text{
+            margin-left: 100px;
+            &_h2{
+                font-family: 'Fraunces 9pt';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: #FEFCF7;
+            }
+            &_p{
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FEFCF7;
+                //mix-blend-mode: normal;
+                opacity: 0.8;
+                margin-right:150px;
+                white-space: wrap;
+            }
+        }
+        &_b-d{
+            background-image: url("/img/About/Bitmap\ \(3\).png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 445px;
+            height: 474px;
+            z-index: 1;
+            position: absolute;
+            left: 750px;
+            top: -86px;
+        }
+    }
+}
